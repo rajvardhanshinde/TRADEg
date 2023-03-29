@@ -1,0 +1,271 @@
+.navbar li{
+    display: inline-block;
+    
+    list-style:none;
+    justify-content: space-evenly;
+    padding-left: 1cm;
+    font-size: 13px;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.navbar{
+    padding-left: 7cm;
+    background-color: rgb(52, 47, 47);
+    height: 20px;
+    align-items: center;
+    color: black;
+    margin-top: -6px;
+}
+
+.navbar li:hover{
+color: yellow;
+cursor: pointer;
+}
+.nav2{
+    justify-content: space-evenly;
+    margin-left: 7cm;
+}
+.btn3{
+    height: 0.9cm;
+    background-color: rgb(20, 185, 20);
+    border: 2px solid rgb(0, 190, 0);
+    box-shadow: 1px 1px 1px black;
+    border-radius: 3px;
+    color: white;
+    margin-left: 4cm;
+    margin-top: 0.4cm;
+}
+.flexbox{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 8cm;
+    height: auto;
+    float: left;
+    padding-top: 3cm;
+    margin-left: -2cm;
+}
+.btn{
+    background-color: rgb(6, 188, 6);
+    color: azure;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    
+    border-color: rgb(9, 202, 9);
+    font-size: 10px;
+    width: 1.9cm;
+    height: 0.7cm;
+    margin-top: 0.7cm
+    
+}
+.btn1{
+    background-color: rgb(197, 242, 244);
+    color: rgb(6, 120, 6);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-color: rgb(190, 232, 238);
+    font-size: 10px;
+    width: 1.9cm;
+    margin-left: 0.4cm;
+    height: 0.7cm;
+    margin-top: 0.7cm
+}
+.img{
+    float: right;
+    margin-right: 3cm;
+    margin-top: 2cm;
+    width: 40%;
+    height: 10cm;  
+}
+
+.speak{
+    background-color: rgb(208, 240, 229);
+    /* border: 2px solid red; */
+    width: 2cm;
+    height: 3cm;
+    margin-top: 9cm;
+    margin-left: -8cm;
+    display: inline-block;
+    align-items: center;
+    
+
+}
+.speak1{
+    background-color: rgb(208, 240, 229);
+
+    /* border: 2px solid red; */
+    width: 2cm;
+    height: 3cm;
+    display: inline-block;
+    
+    /* margin-left: 1cm; */
+    align-items: center;
+    margin-top: 9cm;
+    margin-left: 0.5cm;
+    
+
+    
+
+}
+.speak2{
+    background-color: rgb(208, 240, 229);
+
+    /* border: 2px solid red; */
+    width: 2cm;
+    height: 3cm;
+    display: inline-block;
+    align-items: center;
+justify-content: center;
+    margin-left: 0.5cm;
+
+}
+.content1{
+    /* display: flex; */
+    margin-top: 6cm;
+    margin-left: 15cm;
+    font-size: smaller;
+}
+.content2{
+    display: block;
+    margin-top: 0cm;
+    margin-left: 4cm;
+    font-size: 0.4cm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 80%;
+}
+.content3{
+    display: inline-block;
+    font-size: 0.7cm;
+    margin-left: -11cm;
+    margin-top: 5cm;
+    
+}
+.two{
+    float: left;
+    margin-left: -2cm;
+}
+.content4{
+    display: block;
+    width: 18cm;
+    height: auto;
+    font-size: 0.4cm;
+    margin-left: -11cm;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 80%;
+    
+}
+.iambox1{
+    border: 1px solid rgb(0, 0, 0);
+    width: 10cm;
+    height: 9cm;
+    box-shadow: 2px 2px 2px rgb(143, 137, 137);
+    margin-top: 1cm;
+    border-radius: 7px;
+    float: left;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 2.2cm;
+
+}
+.leaf{
+    display: flex;
+    
+}
+.leaf2 li button{
+    margin-left: 8cm;
+}
+.colorbox{
+    
+    width: 18cm;
+    background-color: rgb(139, 57, 215);
+    height: 8cm;
+    border-radius: 4px;
+    margin-left: 13cm;
+    margin-top: -6cm;
+}
+.innerbox{
+    /* border: 2px solid red; */
+    
+    
+    width: 7cm;
+    height: 5cm;
+    margin-left: 1cm;
+    margin-top: 1.6cm;
+    float: left;
+}
+.rightbox{
+    font-size: 10px;
+    margin-left: 10cm;
+    margin-top: 8cm;
+    padding-top: 1cm;
+    color: white;
+}
+.leaf3{
+    
+    width: 100%;
+    height: 17cm;
+}
+.leaf3 ul li{
+    margin-left: 26cm;
+    
+
+}
+
+.leaf3 ul{
+    margin-top: 1cm;
+    color: rgb(29, 29, 94);
+}
+.containerbox{
+ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 1cm;
+    justify-content: center;
+    
+}
+.boxes{
+    width: 5cm;
+   
+    height: auto;
+    margin-left:1cm ;
+    float: left;
+
+
+}
+.gotbox{
+    height: 0.8cm;
+    width: 0.8cm;
+    margin-left: 0.5cm;
+    border-radius: 12px;
+    padding-left: 0.5cm;
+    margin-top: 1cm;
+    padding-top: 0.4cm;
+    background-color: plum;
+}
+.main{
+    margin-left: 11cm;
+}
+.faq ul li{
+    list-style: none;
+
+}
+.faq{
+    margin-left: 4cm;
+    margin-top: 2cm;
+}
+.faq ul hr{
+    width:1cm;
+    margin-left: 0cm;
+    padding-left: 28cm;
+}
+.boxx{
+    border: 0.1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 2cm;
+    margin-top: 1CM;
+    box-shadow: 2px 2px 2px 2px grey;
+}

@@ -1,0 +1,157 @@
+.navbar li{
+    display: inline-block;
+    
+    list-style:none;
+    justify-content: space-evenly;
+    padding-left: 1cm;
+    font-size: 13px;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.navbar{
+    padding-left: 7cm;
+    background-color: rgb(52, 47, 47);
+    height: 20px;
+    align-items: center;
+    margin-top: -6px;
+}
+.list1 li{
+    display: block;
+    list-style: none;
+    margin-top: 0.3cm;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+.list1{
+    float: left;
+}
+.list2{
+    float: left;
+    margin-left: 2cm;
+    /* margin-top: 1cm; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+li:hover{
+color: yellow;
+cursor: pointer;
+}
+.box{
+    /* border: 2px solid red; */
+    background-color: rgb(221, 217, 217);
+    border-radius: 3px;
+    width: 27cm;
+    height: 5cm;
+    display: inline-block;
+    /* padding-left: 8cm; */
+    margin-left: 8cm;
+    margin-top: -15px;
+}
+.list2 li{
+    /* float: left; */
+    display: block;
+    list-style: none;
+    margin-top: 0.3cm;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   ;
+}
+.list3{
+    float: left;
+    margin-left: 3cm;
+    /* margin-top: 1cm; */
+}
+.list3 li{
+    /* float: left; */
+    display: block;
+    list-style: none;
+    margin-top: 0.3cm;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.flexbox{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 8cm;
+    height: auto;
+    float: left;
+    padding-top: 0.5cm;
+    margin-left: 7cm;
+}
+.btn{
+    background-color: rgb(6, 188, 6);
+    color: azure;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    
+    border-color: rgb(9, 202, 9);
+    font-size: 10px;
+    width: 1.9cm;
+    height: 0.7cm;
+    margin-top: 0.7cm
+    
+}
+.btn1{
+    background-color: rgb(197, 242, 244);
+    color: rgb(6, 120, 6);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-color: rgb(190, 232, 238);
+    font-size: 10px;
+    width: 1.9cm;
+    margin-left: 0.4cm;
+    height: 0.7cm;
+    margin-top: 0.7cm
+}
+.img{
+    float: right;
+    margin-right: 3cm;
+    width: 40%;
+    height: 30%
+    
+}
+.speak{
+    background-color: rgb(208, 240, 229);
+    /* border: 2px solid red; */
+    width: 2cm;
+    height: 3cm;
+    
+    margin-left: 7cm;
+    display: inline-block;
+    align-items: center;
+    
+
+}
+.speak1{
+    background-color: rgb(208, 240, 229);
+
+    /* border: 2px solid red; */
+    width: 2cm;
+    height: 3cm;
+    display: inline-block;
+    margin-top: 0.5cm;
+    /* margin-left: 1cm; */
+    align-items: center;
+    margin-left: 0.5cm;
+    justify-content: center
+    
+
+    
+
+}
+.speak2{
+    background-color: rgb(208, 240, 229);
+
+    /* border: 2px solid red; */
+    width: 2cm;
+    height: 3cm;
+    display: inline-block;
+    align-items: center;
+justify-content: center;
+    margin-left: 0.5cm;
+
+}
